@@ -21,7 +21,22 @@ public class HomeController : Controller
 
     public IActionResult Resume() { return View(); }
 
-    public IActionResult Contact() { return View(); }
+    [HttpGet]
+    public IActionResult Contact() {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Contact(ContactModel contactModel)
+    {
+        if (ModelState.IsValid) { string valid = "valid"; }
+        else { string invalid = "invalid"; }
+
+        return View("Contact");
+    }
+
+
+
 
     public IActionResult Privacy() { return View(); }
 

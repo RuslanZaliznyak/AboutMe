@@ -20,19 +20,25 @@
 
 </div>
 
+@model AboutMe.Models.ContactModel
+
 <div class="contact-form">
     <h2>Зв'яжіться зі мною</h2>
 
-    <form action="#" method="post">
-        <label for="ім'я">Ім'я:</label><br>
-        <input type="text" id="ім'я" name="ім'я" required><br><br>
+    <form method="post" asp-controller="Home" asp-action="Contact">
+        <label asp-for="Name">Ім'я:</label><br>
+        <input asp-for="Name" class="form-control"><br>
+        <span asp-validation-for="Name"></span><br>
 
-        <label for="email">Електронна пошта:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label asp-for="Email">Електронна пошта:</label><br>
+        <input asp-for="Email" class="form-control" required><br>
+        <span asp-validation-for="Email"></span><br>
 
-        <label for="повідомлення">Повідомлення:</label><br>
-        <textarea id="повідомлення" name="повідомлення" required></textarea><br><br>
+        <label asp-for="Message">Повідомлення:</label><br>
+        <textarea asp-for="Message" class="form-control" required></textarea><br>
+        <span asp-validation-for="Message"></span><br>
 
         <input type="submit" value="Відправити">
     </form>
 </div>
+
