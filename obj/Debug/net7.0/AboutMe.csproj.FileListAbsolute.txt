@@ -29,3 +29,9 @@
 /Users/ruslansydir/Projects/AboutMe/AboutMe/obj/Debug/net7.0/AboutMe.pdb
 /Users/ruslansydir/Projects/AboutMe/AboutMe/obj/Debug/net7.0/AboutMe.genruntimeconfig.cache
 /Users/ruslansydir/Projects/AboutMe/AboutMe/obj/Debug/net7.0/ref/AboutMe.dll
+/Users/ruslansydir/Projects/AboutMe/AboutMe/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/ruslansydir/Projects/AboutMe/AboutMe/bin/Debug/net7.0/SendGrid.dll
+/Users/ruslansydir/Projects/AboutMe/AboutMe/bin/Debug/net7.0/StarkbankEcdsa.dll
+/Users/ruslansydir/Projects/AboutMe/AboutMe/obj/Debug/net7.0/AboutMe.csproj.CopyComplete
+/Users/ruslansydir/Projects/AboutMe/AboutMe/bin/Debug/net7.0/DotNetEnv.dll
+/Users/ruslansydir/Projects/AboutMe/AboutMe/bin/Debug/net7.0/Sprache.dll

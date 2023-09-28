@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AboutMe.Models;
+using AboutMe.Service;
 
 namespace AboutMe.Controllers;
 
@@ -27,11 +28,14 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Contact(ContactModel contactModel)
+    public IActionResult Contact(ContactModel question)
     {
-        if (ModelState.IsValid) { string valid = "valid"; }
-        else { string invalid = "invalid"; }
+        string userName = question.Name;
+        string userEmail = question.Email;
+        string userMsg = question.Message;
 
+        EmailSender.SendMail(userEmail, userName, userMsg);
+       
         return View("Contact");
     }
 
