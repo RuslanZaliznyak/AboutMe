@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model AboutMe.Models.Article
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Title">Заголовок:</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Content">Зміст:</label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Зберегти</button>
+</form>

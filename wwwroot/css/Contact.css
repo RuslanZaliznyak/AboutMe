@@ -1,0 +1,23 @@
+﻿.content {
+    margin: auto;
+    width: 850px;
+    padding: 10px;
+}
+
+.contact-form {
+    float: left;
+    width: 50%;
+    background: rgb(94,94,94);
+    background: linear-gradient(90deg, rgba(94,94,94,1) 0%, rgba(66,65,65,1) 51%, rgba(24,24,24,1) 100%);
+}
+
+.form-control {
+    background: transparent; 
+    border: none; 
+    border-bottom: 1px solid #000; 
+}
+
+.contact-info {
+    float: left;
+    width: 50%; 
+}

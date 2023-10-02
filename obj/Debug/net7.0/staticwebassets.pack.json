@@ -5,12 +5,40 @@
       "PackagePath": "staticwebassets/AboutMe.bundle.scp.css"
     },
     {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/css/Contact.css",
+      "PackagePath": "staticwebassets/css/Contact.css"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/css/_layout.css",
+      "PackagePath": "staticwebassets/css/_layout.css"
+    },
+    {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/icons/email.png",
+      "PackagePath": "staticwebassets/icons/email.png"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/icons/github-sign.png",
+      "PackagePath": "staticwebassets/icons/github-sign.png"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/icons/instagram.png",
+      "PackagePath": "staticwebassets/icons/instagram.png"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/icons/telegram.png",
+      "PackagePath": "staticwebassets/icons/telegram.png"
     },
     {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/site.js",

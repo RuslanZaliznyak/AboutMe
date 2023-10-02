@@ -1,0 +1,24 @@
+﻿.instagram-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url('/icons/instagram.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+.github-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url('/icons/github-sign.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.telegram-icon {
+    width: 25px;
+    height: 25px;
+    background-image: url('/icons/telegram.png');
+    background-size: cover;
+    display: inline-block;
+}
