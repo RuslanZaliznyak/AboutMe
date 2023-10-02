@@ -12,7 +12,14 @@ namespace AboutMe.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            List<AboutMe.Models.Article> articles; 
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                articles = db.Articles.ToList();
+            }
+
+            return View(articles);
         }
 
         [HttpGet]
