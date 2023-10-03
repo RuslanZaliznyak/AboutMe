@@ -3,69 +3,22 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-
+@model List<AboutMe.Models.Project>
 
 <div class="card-deck">
-
-    <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">ButteryHub</h5>
-            <p class="card-github">
-                <a href="https://github.com/RuslanZaliznyak/BatteryHub">Source code</a>
-            </p>
-            <p class="card-desc">
-                This web application simplifies battery management, allowing users to add, delete, and sort battery records, streamlining inventory management and facilitating effective planning and utilization.
-            </p>
-            <p>language: Python</p>
-            <p class="card-technology">
-                <ul class="list-tech">
-                    <li>
-                        <a href="">Flask Framework</a>
-                    </li>
-                    <li>
-                        <a href="">Itself API</a>
-                    </li>
-                </ul>
-
-            </p>
-            <p class="card-text"><small class="text-muted">Last updated {UPDATE-TIME} mins ago</small></p>
+    п
+    @foreach (var project in Model)
+    {
+        <div class="card">
+            <img class="card-img-top" src="@project.ImageData" alt="@project.ImageTitle">
+            <div class="card-body">
+                <h5 class="card-title">@project.Title</h5>
+                <p class="card-github">
+                    <a href="@project.SourceLink">Source code</a>
+                </p>
+                <p class="card-desc">@project.Content</p>
+                <p class="card-text"><small class="text-muted">Last updated @project.CreatedDate mins ago</small></p>
+            </div>
         </div>
-    </div>
-
-    <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Finance Manager</h5>
-            <p class="card-github">
-                <a href="https://github.com/RuslanZaliznyak/FinanceManager">Source code</a>
-            </p>
-            <p class="card-desc">
-                A web-app for saving, grouping, tracking and analyzing your own expenses and income, home and work budgets
-            </p>
-            <p>language: Python</p>
-            <p class="card-technology">
-                <ul class="list-tech">
-                    <li>
-                        <a href="">Django Framework</a>
-                    </li>
-                    <li>
-                        <a href="">NumPy</a>
-                    </li>
-                    <li>
-                        <a href="">Pandas</a>
-                    </li>
-                    <li>
-                        <a href="">Pillow</a>
-                    </li>
-                    <li>
-                        <a href="">MySQl</a>
-                    </li>
-                </ul>
-
-            </p>
-            <p class="card-text"><small class="text-muted">Last updated {UPDATE-TIME} mins ago</small></p>
-        </div>
-    </div>
-    
+    }
 </div>

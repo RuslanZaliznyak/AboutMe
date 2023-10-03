@@ -6,6 +6,7 @@ namespace AboutMe.Models
     public class ApplicationContext : DbContext
     {
         public DbSet<Article> Articles { get; set; } = null!;
+        public DbSet<Article> Projects { get; set; } = null!;
 
         public ApplicationContext() => Database.EnsureCreated();
 
