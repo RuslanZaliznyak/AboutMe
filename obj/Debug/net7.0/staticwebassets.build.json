@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+7N4IOT/bViGhlCcVsL4bkyBTM9wUUoRzVj2hPyhZvY=",
+  "Hash": "inY8ws2MOyU1OVxLnrZ7sd1nfxPqcQE9QMVFl5w2IEU=",
   "Source": "AboutMe",
   "BasePath": "_content/AboutMe",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/icons/telegram.png"
+    },
+    {
+      "Identity": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/new-record-popup.js",
+      "SourceId": "AboutMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/",
+      "BasePath": "_content/AboutMe",
+      "RelativePath": "js/new-record-popup.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/new-record-popup.js"
     },
     {
       "Identity": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/portfolio-list.js",

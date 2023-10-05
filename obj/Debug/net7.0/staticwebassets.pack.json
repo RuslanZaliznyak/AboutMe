@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets/icons/telegram.png"
     },
     {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/new-record-popup.js",
+      "PackagePath": "staticwebassets/js/new-record-popup.js"
+    },
+    {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/portfolio-list.js",
       "PackagePath": "staticwebassets/js/portfolio-list.js"
     },
