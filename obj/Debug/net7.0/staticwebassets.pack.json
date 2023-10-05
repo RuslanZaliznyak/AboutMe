@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/css/Contact.css"
     },
     {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/css/Portfolio.css",
+      "PackagePath": "staticwebassets/css/Portfolio.css"
+    },
+    {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/css/_layout.css",
       "PackagePath": "staticwebassets/css/_layout.css"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/icons/telegram.png",
       "PackagePath": "staticwebassets/icons/telegram.png"
+    },
+    {
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/portfolio-list.js",
+      "PackagePath": "staticwebassets/js/portfolio-list.js"
     },
     {
       "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/js/site.js",

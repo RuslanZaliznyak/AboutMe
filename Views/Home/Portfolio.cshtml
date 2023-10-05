@@ -5,20 +5,44 @@
 
 @model List<AboutMe.Models.Project>
 
-<div class="card-deck">
-    п
-    @foreach (var project in Model)
-    {
-        <div class="card">
-            <img class="card-img-top" src="@project.ImageData" alt="@project.ImageTitle">
-            <div class="card-body">
-                <h5 class="card-title">@project.Title</h5>
-                <p class="card-github">
-                    <a href="@project.SourceLink">Source code</a>
-                </p>
-                <p class="card-desc">@project.Content</p>
-                <p class="card-text"><small class="text-muted">Last updated @project.CreatedDate mins ago</small></p>
-            </div>
-        </div>
-    }
+
+<div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">Show all</button>
+    <button class="btn active" onclick="filterSelection('app')">Web App</button>
+    <button class="btn active" onclick="filterSelection('api')">Web API</button>
+    <button class="btn active" onclick="filterSelection('other')">Other</button>
 </div>
+
+
+<div class="row">
+
+    <div class="column app">
+        <div class="content">
+            <img src="" alt="TEST APP" style="width:100%">
+            <h4>TEST APP</h4>
+            <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    
+
+    <div class="column api">
+        <div class="content">
+            <img src="" alt="TEST API" style="width:100%">
+            <h4>TEST API</h4>
+            <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+
+
+    <div class="column other">
+        <div class="content">
+            <img src="" alt="TEST OTHER" style="width:100%">
+            <h4>TEST OTHER</h4>
+            <p>Lorem ipsum dolor..</p>
+        </div>
+    </div>
+    
+</div>
+
+
+

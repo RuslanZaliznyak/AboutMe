@@ -10,7 +10,7 @@ namespace AboutMe.Controllers
 {
     public class BlogController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Records()
         {
             List<AboutMe.Models.Article> articles; 
 
