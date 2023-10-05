@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d9AkddOHznLwDdZSSckr0UQ0W2zF0j12I9IhkB+k+Nc=",
+  "Hash": "RwUsUiui/GZHutEk3ojoYECffnxqaAxRKI1ewnbMeA8=",
   "Source": "AboutMe",
   "BasePath": "_content/AboutMe",
   "Mode": "Default",
@@ -1241,12 +1241,12 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/pdf/dummy.pdf",
+      "Identity": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/pdf/cv.pdf",
       "SourceId": "AboutMe",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/",
       "BasePath": "_content/AboutMe",
-      "RelativePath": "pdf/dummy.pdf",
+      "RelativePath": "pdf/cv.pdf",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,7 +1255,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/pdf/dummy.pdf"
+      "OriginalItemSpec": "wwwroot/pdf/cv.pdf"
     }
   ]
 }

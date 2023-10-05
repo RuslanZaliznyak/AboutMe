@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using AboutMe.Models;
 using AboutMe.Service;
+using Microsoft.AspNetCore.Hosting.Server;
 
 namespace AboutMe.Controllers;
 
@@ -21,6 +22,13 @@ public class HomeController : Controller
     public IActionResult Portfolio() { return View(); }
 
     public IActionResult Resume() { return View(); }
+
+    [HttpGet]
+    public FileResult Cv()
+    {
+        return File("~/pdf/cv.pdf", "application/pdf", "cv.pdf");
+    }
+
 
     [HttpGet]
     public IActionResult Contact() {

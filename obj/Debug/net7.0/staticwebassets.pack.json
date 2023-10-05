@@ -285,8 +285,8 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/pdf/dummy.pdf",
-      "PackagePath": "staticwebassets/pdf/dummy.pdf"
+      "Id": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/pdf/cv.pdf",
+      "PackagePath": "staticwebassets/pdf/cv.pdf"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.AboutMe.Microsoft.AspNetCore.StaticWebAssets.props",
