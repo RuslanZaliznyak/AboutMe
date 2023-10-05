@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "inY8ws2MOyU1OVxLnrZ7sd1nfxPqcQE9QMVFl5w2IEU=",
+  "Hash": "d9AkddOHznLwDdZSSckr0UQ0W2zF0j12I9IhkB+k+Nc=",
   "Source": "AboutMe",
   "BasePath": "_content/AboutMe",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/pdf/dummy.pdf",
+      "SourceId": "AboutMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ruslansydir/Projects/AboutMe/AboutMe/wwwroot/",
+      "BasePath": "_content/AboutMe",
+      "RelativePath": "pdf/dummy.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pdf/dummy.pdf"
     }
   ]
 }
